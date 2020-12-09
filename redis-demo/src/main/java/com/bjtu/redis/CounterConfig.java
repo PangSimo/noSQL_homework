@@ -4,6 +4,7 @@ import com.google.gson.Gson;
 import com.google.gson.JsonObject;
 
 import java.io.*;
+import java.nio.CharBuffer;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -15,7 +16,7 @@ public class CounterConfig {
 
     public List<JedisOperation> init_config() {
         counters = new ArrayList<JedisOperation>();
-        String path = this.getClass().getClassLoader().getResource("./jsonFiles/config.json").getPath();
+        String path ="src/main/resources/jsonFiles/config.json";
         Gson gson = new Gson();
 
         Map jo = gson.fromJson(ReadFile(path),Map.class);

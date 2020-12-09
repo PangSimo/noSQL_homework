@@ -4,14 +4,14 @@
       "counterName": "numberCounter_1",
       "counterIndex": "num01",
       "type": "num",
-      "incrValue": "4",
+      "incrValue": "88",
       "initValue": "0"
     },
     {
       "counterName": "numberCounter_2",
       "counterIndex": "num02",
       "type": "num",
-      "incrValue": "7",
+      "incrValue": "6",
       "initValue": "1"
     },
     {
